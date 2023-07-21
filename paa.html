@@ -13,7 +13,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css1?family=Cinzel&display=swap">
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel:400,100,300,700" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
@@ -29,7 +29,7 @@
             Menu
             <i class="fas fa-bars ms-1"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+       <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                 <li class="nav-item"><a class="nav-link" href="https://hss.fullerton.edu/paj/">CSUF PAJ Webpage</a></li>
                 
@@ -39,8 +39,8 @@
                         Pi Alpha Alpha
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="piAlphaAlphaDropdown">
-                        <li><a class="dropdown-item" href="#">Page 1</a></li>
-                        <li><a class="dropdown-item" href="#">Page 2</a></li>
+                        <li><a class="dropdown-item" href="paa.html">Main Page</a></li>
+                        <li><a class="dropdown-item" href="#">Events</a></li>
                         <!-- Add more pages as needed -->
                     </ul>
                 </li>
@@ -51,32 +51,30 @@
                         Pi Sigma Alpha
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="piSigmaAlphaDropdown">
-                        <li><a class="dropdown-item" href="#">Page 1</a></li>
-                        <li><a class="dropdown-item" href="#">Page 2</a></li>
+                        <li><a class="dropdown-item" href="psa.html">Main Page</a></li>
+                        <li><a class="dropdown-item" href="#">Events</a></li>
                         <!-- Add more pages as needed -->
                     </ul>
                 </li>
 
-                <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">PAJ Events</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-        <header class="banner-bg">
-    <img src="./images/monument.jpg" alt="CSUF Monument">
-    <div class="overlay-text">
-        <h1>Pi Alpha Alpha</h1>
-    </div>
-</header>
-
-
-
+        <!-- Masthead 2 -->
+       		 <header class="masthead2">
+          	<div class="container">
+                <div class="masthead-subheading2">Public Administration Honor Society</div>
+                <div class="masthead-heading2 text-uppercase">Pi Alpha Alpha</div>
+            </div>
+        	</header>
 
       
    		<section class="p-5">
-			<div class="container-fluid">
+			<div class="container2">
 			 <div class="section-title clear">
 			<h2>General Information</h2>
 		  </div>
@@ -85,20 +83,101 @@
 				<p>The society engages in a wide array of activities, including insightful discussions, lectures from guest speakers, community service initiatives, and professional networking events. The society's hallmark event is the annual induction banquet held each spring semester. </p>
 		</div>	
 	</section>
-	<section class="p-5 bg-light">
-		<div class="container-fluid">
-		<h2>About Pi Alpha Alpha</h2>
-			<p>Joining Pi Alpha Alpha is more than just an acknowledgment of academic success. It's an identification with a group of individuals committed to public affairs and administration. Members gain access to unique service opportunities organized by individual Pi Alpha Alpha chapters, allowing them to practically apply their classroom knowledge in local community contexts.</p>
-			
-			<p>In addition to community involvement, members gain access to a vast network of peers and professionals in public service both domestically and globally. They can connect with this network through various platforms, including the Global Society's Facebook group. Moreover, membership in Pi Alpha Alpha is a testament to a candidate's qualifications and potential, signaling to prospective employers the member's exceptional capabilities.</p>
-			
-			<p>Pi Alpha Alpha provides members the chance to visually celebrate their academic accomplishments by purchasing honor cords, medallions, and other such items, signifying their society affiliation. Furthermore, our members benefit from access to valuable job-seeking resources, such as NASPAA’s job board, which offers prospective opportunities and crucial career advice for students interested in public service.</p>
-		</div>
-	</section>
+	
+					<!-- Portfolio Grid-->
+		<section class="page-section bg-light" id="portfolio">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="section-heading text-uppercase">Start Here</h2>
+					<h3 class="section-subheading text-muted">Take a moment to fill out your membership application, find out more about &Pi;&Alpha;&Alpha;, and get involved.</h3>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fa-solid fa-school-lock"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./images/sunset.jpg" alt="CSFU at sunset" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Requirements</div>
+                                <div class="portfolio-caption-subheading text-muted">Check You Qualifications</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fa-solid fa-user-graduate"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./images/application2.jpeg" alt="person filling out application"/>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Apply Online</div>
+                                <div class="portfolio-caption-subheading text-muted">Fill out the application</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./images/teamwork.jpeg" alt="teamwork people on rock at sunset" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">What's New?</div>
+                                <div class="portfolio-caption-subheading text-muted">Recent Events</div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			<div class="row">
+						<div class="col-lg-4 col-sm-6 mb-4">
+							<!-- Portfolio item 4-->
+							<div class="portfolio-item">
+								<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+									<div class="portfolio-hover">
+										<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+									</div>
+									<img class="img-fluid" src="./images/elephant.png" alt="CSUF Marquee" />
+								</a>
+								<div class="portfolio-caption">
+									<div class="portfolio-caption-heading">&Pi;AA Links</div>
+									<div class="portfolio-caption-subheading text-muted">More &Pi;AA Resources</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 mb-4">
+							<!-- Portfolio item 5-->
+							<div class="portfolio-item">
+								<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+									<div class="portfolio-hover">
+										<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+									</div>
+									<img class="img-fluid" src="./images/tsu.jpg" alt="CSUF TSU Building" />
+								</a>
+								<div class="portfolio-caption">
+									<div class="portfolio-caption-heading">More About &Pi;AA</div>
+									<div class="portfolio-caption-subheading text-muted">Additional Information</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- Close this row -->
+				</div>
+					</section>
+
+
 	
 	<!-- Team-->
         <section class="page-section bg-light" id="team">
-            <div class="container">
+            <div class="container2">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">2023-2034 Officers</h2>
                     <h3 class="section-subheading text-muted">Meet the Volunteers!</h3>
@@ -151,51 +230,7 @@
             </div>
         </section>
 	
-	<section>
-    <div class="container-fluid py-5">
-        <h2 >Organization Links</h2>
-        <p>Here are some resources and updates related to the CSUF chapter of Pi Alpha Alpha, including links to the national organization, information about membership, and campus programming.</p>
-        
-        <div class="row justify-content-center mt-4">
-            <div class="col-lg-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-header">Washington, D.C. Office</div>
-                    <div class="card-body">
-                        <ul class="list-unstyled">
-                            <li><a href="https://pialphaalpha.org//" class="secondary">Pi Sigma Alpha</a></li> 
-                            <li><a href="https://pialphaalpha.org/chapter-activities/" class="secondary">Chapter Activities</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-header">Membership</div>
-                    <div class="card-body">
-                        <ul class="list-unstyled">
-                            <li><a href="https://pialphaalpha.org/member-criteria/" class="secondary">Membership Criteria</a></li>
-                            <li><a href="https://hss.fullerton.edu/paj/_resources/pdfs/PAA%20Membership%20Application%202019-2020.pdf" class="secondary">Membership Application - PDF to Print</a></li>
-							<li><a href="paa_app.html" class="secondary">Membership Application - Online Form</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-header">Campus</div>
-                    <div class="card-body">
-                        <ul class="list-unstyled">
-                            <li><a href="https://hss.fullerton.edu/paj/" class="secondary">Division of Politics, Administration &amp; Justice</a></li>
-							<li><a href="https://hss.fullerton.edu/paj/pi_alpha_alpha.aspx" class="secondary">Official University Site</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-       
-
+	
 	        <!-- Footer-->
 <footer class="footer py-4">
     <div class="container">
@@ -213,7 +248,371 @@
         </div>
     </div>
 </footer>
+ <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal">
+				<i class="fa-solid fa-circle-xmark"></i>
+			</div>
+			<style>
+				ul {
+					list-style-type: none;
+				}
+			</style>
 
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 modal-body">
+                        <div class="section-title text-center">
+                            <h2 class="primary">Requirements</h2>
+                        </div>
+
+                        <div class="card mb-4">
+ 						   			<div class="card-body">
+										<h4>Undergraduate Students:</h4>
+										<ul>
+										  <li>Minimum 3.0 cumulative GPA</li>
+										  <li>Minimum 3.5 Public Administration GPA</li>
+										  <li>Completion of fifteen units in public administration</li>
+										  <li>Junior Standing</li>
+										</ul>
+									  </div>                        </div>
+
+                        <div class="card mb-4">
+						    <div class="card-body">
+						   		<h4>Graduate Students:</h4>
+						   		<ul>
+						   			<li>Minimum GPA of 3.7</li>
+						   			<li>Completion of eighteen unitis toward MPA degree</li>
+						   		</ul>
+						   		</div>
+                        </div>
+
+                        <div class="card">
+							<div class="card-body">
+							<h4>$75 One-Time Membership Fee:</h4>
+							<ul>
+							  <li>Covers lifetime membership, including national dues, chapter dues, honor cords, and a membership pin.</li>
+							  <li>Check or Cash is accepted. Please deliver to faculty advisor in GH 516 or mailbox in GH 511.</li>
+							  <li><em>Dues must be paid before the application is processed</em>.</li>
+							</ul>
+						  </div>                    
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Portfolio item 2 modal popup-->
+   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class="container2">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <section>
+                                <h1 class="text-center">Pi Alpha Alpha</h1>
+								<h2 class="text-center">Complete the Application</h2>
+								<h3 class="text-center">Your information will be emailed to the faculty advisor.</h3>
+                                <form action="https://formspree.io/f/maygnbpy" method="POST">
+										<div class="row mb-3">
+										  <div class="col">
+											<div class="form-floating">
+											  <input type="text" class="form-control" id="firstName" placeholder="First Name">
+											  <label for="firstName">First Name</label>
+											</div>
+										  </div>
+
+										  <div class="col">
+											<div class="form-floating">
+											  <input type="text" class="form-control" id="middleInitial" placeholder="MI" maxlength="1">
+											  <label for="middleInitial">Middle Initial</label>
+											</div>
+										  </div>
+
+										  <div class="col">
+											<div class="form-floating">
+											  <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+											  <label for="lastName">Last Name</label>
+											</div>
+										  </div>
+										</div>
+
+										<div class="form-floating mb-3">
+										  <input type="text" class="form-control" id="address1" placeholder="1234 Main St">
+										  <label for="address1">Address</label>
+										</div>
+
+										<div class="form-floating mb-3">
+										  <input type="text" class="form-control" id="address2" placeholder="Apartment, studio, or floor">
+										  <label for="address2">Address 2</label>
+										</div>
+									
+									<div class="row mb-3">
+										<div class="col">
+											<div class="form-floating">
+     										 <input type="text" class="form-control" name="city" placeholder="City" required>
+												<label for="city">City</label>
+										</div>
+										</div>
+										<div class="col">
+											<div class="form-floating">
+										  <select name="state" class="form-control" required>
+											<option value="" selected="" disabled="">State</option>
+											<option value="AL">Alabama</option>
+											<option value="AK">Alaska</option>
+											<option value="AZ">Arizona</option>
+											<option value="AR">Arkansas</option>
+											<option value="CA">California</option>
+											<option value="CO">Colorado</option>
+											<option value="CT">Connecticut</option>
+											<option value="DE">Delaware</option>
+											<option value="DC">District Of Columbia</option>
+											<option value="FL">Florida</option>
+											<option value="GA">Georgia</option>
+											<option value="HI">Hawaii</option>
+											<option value="ID">Idaho</option>
+											<option value="IL">Illinois</option>
+											<option value="IN">Indiana</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+											<option value="LA">Louisiana</option>
+											<option value="ME">Maine</option>
+											<option value="MD">Maryland</option>
+											<option value="MA">Massachusetts</option>
+											<option value="MI">Michigan</option>
+											<option value="MN">Minnesota</option>
+											<option value="MS">Mississippi</option>
+											<option value="MO">Missouri</option>
+											<option value="MT">Montana</option>
+											<option value="NE">Nebraska</option>
+											<option value="NV">Nevada</option>
+											<option value="NH">New Hampshire</option>
+											<option value="NJ">New Jersey</option>
+											<option value="NM">New Mexico</option>
+											<option value="NY">New York</option>
+											<option value="NC">North Carolina</option>
+											<option value="ND">North Dakota</option>
+											<option value="OH">Ohio</option>
+											<option value="OK">Oklahoma</option>
+											<option value="OR">Oregon</option>
+											<option value="PA">Pennsylvania</option>
+											<option value="RI">Rhode Island</option>
+											<option value="SC">South Carolina</option>
+											<option value="SD">South Dakota</option>
+											<option value="TN">Tennessee</option>
+											<option value="TX">Texas</option>
+											<option value="UT">Utah</option>
+											<option value="VT">Vermont</option>
+											<option value="VA">Virginia</option>
+											<option value="WA">Washington</option>
+											<option value="WV">West Virginia</option>
+											<option value="WI">Wisconsin</option>
+											<option value="WY">Wyoming</option>
+										  </select>
+											</div>
+										</div>
+										<div class="col">
+											<div class="form-floating">
+      										<input type="text" class="form-control" name="postal-code" placeholder="ZIP" required>
+											<label for="postal-code">ZIP</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-floating mb-3">
+									<input id="email" type="email" name="email" class="form-control" placeholder="you@fullerton.edu" required>
+										<label for="email">Email:</label>
+									</div>
+
+
+									<div class="form-floating mb-3">
+										<input class="form-control" id="phone" type="tel" name="Phone" pattern="(\+\d{1,2}\s?)?(\()?(\d{3})(?(2)\))[-.\s]?(\d{3})[-.\s]?(\d{4})" required>
+										<label for="phone">Phone:</label>
+									</div>
+
+									<div class="form-floating mb-3">
+										  <input class="form-control" id="CWID" type="text" name="CWID" pattern="\d{9}" required>
+										  <label for="CWID">CWID:</label>
+									 </div>
+
+								<div class="form-floating mb-3">
+								  <select class="form-control" id="class" name="class" required>
+									<option value="">Select...</option>
+									<option value="junior">Junior</option>
+									<option value="senior">Senior</option>
+									<option value="graduate">Graduate</option>
+								  </select>
+								  <label for="class">Class:</label>
+								</div>
+
+								<div class="row mb-3">
+								<div class="col">
+									<div class="form-floating">
+										<select id="expectedGraduationSemester" name="expectedGraduationSemester" class="form-control" required>
+											<option value="">Select...</option>
+											<option value="Spring">Spring</option>
+											<option value="Summer">Summer</option>
+											<option value="Fall">Fall</option>
+										</select>
+										<label for="expectedGraduationSemester">Expected Graduation Semester</label>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-floating">
+										<select id="expectedGraduationYear" name="expectedGraduationYear" class="form-control" required></select>
+										<label for="expectedGraduationYear">Expected Graduation Year</label>
+									</div>
+								</div>
+							</div>
+
+							<script>
+								var select = document.getElementById("expectedGraduationYear");
+								var currentYear = new Date().getFullYear();
+								for (var year = currentYear; year <= currentYear + 10; year++) {
+									var option = document.createElement("option");
+									option.value = year;
+									option.text = year;
+									select.appendChild(option);
+								}
+							</script>
+
+
+								<div class="form-floating mb-3">
+								  <input class="form-control" id="cumulativeGPA" type="number" step="0.01" min="3.0" name="cumulativeGPA" required>
+								  <label for="cumulativeGPA">Cumulative GPA:</label>
+								</div>
+
+								<div class="form-floating mb-3">
+								  <input class="form-control" id="PAGPA" type="number" step="0.01" min="3.5" name="PAGPA" required>
+								  <label for="PAGPA">Public Admin. GPA:</label>
+								</div>
+
+								<div class="form-floating mb-3">
+								  <input class="form-control" id="PAUnits" type="number" min="15" name="PAUnits" required>
+								  <label for="PAUnits">Public Administration Units Completed:</label>
+								</div>
+
+
+								<div class="button-wrapper text-center">
+								<button type="submit" class="btn btn-secondary m-2">Submit</button>
+								<button type="reset" class="btn btn-primary m-2">Clear Form</button>
+								<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+								</div>
+									</form>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal">
+						<i class="fa-solid fa-circle-xmark"></i>
+					</div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Current Events</h2>
+                                    <p class="item-intro text-muted">See how you can participate</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Finish
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Identity
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 >Organization Links</h2>
+									<p>Here are some resources and updates related to the CSUF chapter of Pi Alpha Alpha, including links to the national organization, information about membership, and campus programming.</p>
+
+									<div class="row justify-content-center mt-4">
+										<div class="col-lg-4">
+											<div class="card bg-light mb-3">
+												<div class="card-header">Washington, D.C. Office</div>
+												<div class="card-body">
+													<ul class="list-unstyled">
+														<li><a href="https://pialphaalpha.org//" class="secondary">Pi Sigma Alpha</a></li> 
+														<li><a href="https://pialphaalpha.org/chapter-activities/" class="secondary">Chapter Activities</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+	<!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal">
+						<i class="fa-solid fa-circle-xmark"></i>
+					</div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                  <section class="p-5 bg-light">
+									<div class="container-fluid">
+									<h2>About Pi Alpha Alpha</h2>
+										<p>Joining Pi Alpha Alpha is more than just an acknowledgment of academic success. It's an identification with a group of individuals committed to public affairs and administration. Members gain access to unique service opportunities organized by individual Pi Alpha Alpha chapters, allowing them to practically apply their classroom knowledge in local community contexts.</p>
+
+										<p>In addition to community involvement, members gain access to a vast network of peers and professionals in public service both domestically and globally. They can connect with this network through various platforms, including the Global Society's Facebook group. Moreover, membership in Pi Alpha Alpha is a testament to a candidate's qualifications and potential, signaling to prospective employers the member's exceptional capabilities.</p>
+
+										<p>Pi Alpha Alpha provides members the chance to visually celebrate their academic accomplishments by purchasing honor cords, medallions, and other such items, signifying their society affiliation. Furthermore, our members benefit from access to valuable job-seeking resources, such as NASPAA’s job board, which offers prospective opportunities and crucial career advice for students interested in public service.</p>
+									</div>
+								</section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
