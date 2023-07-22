@@ -11440,3 +11440,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     background: #ec971f;
 }
 
+.deadline-banner {
+    text-align: center; /* To center the text */
+    font-size: 1.5em; /* Increase the font size */
+}
