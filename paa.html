@@ -17,6 +17,14 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+		 <script src="https://www.google.com/recaptcha/api.js?render=6Le401AnAAAAABrmAARVbfukr7LgO7heCiFN9xmH"></script>
+    <script>
+      grecaptcha.ready(function () {
+        grecaptcha.execute('6Le401AnAAAAABrmAARVbfukr7LgO7heCiFN9xmH', {action: 'submit'}).then(function (token) {
+          document.getElementById('g-recaptcha-response').value = token;
+        });
+      });
+    </script>
     </head>
     
 <body id="page-top">
@@ -515,21 +523,24 @@
 
 
 								<div class="form-floating mb-3">
-								  <input class="form-control" id="cumulativeGPA" type="number" step="0.01" min="3.0" name="cumulativeGPA" required>
+								  <input class="form-control" id="cumulativeGPA" type="number" step="0.01" min="3.0" name="cumulativeGPA">
 								  <label for="cumulativeGPA">Cumulative GPA:</label>
 								</div>
 
 								<div class="form-floating mb-3">
-								  <input class="form-control" id="PAGPA" type="number" step="0.01" min="3.5" name="PAGPA" required>
+								  <input class="form-control" id="PAGPA" type="number" step="0.01" min="3.5" name="PAGPA">
 								  <label for="PAGPA">Public Admin. GPA:</label>
 								</div>
 
 								<div class="form-floating mb-3">
-								  <input class="form-control" id="PAUnits" type="number" min="15" name="PAUnits" required>
+								  <input class="form-control" id="PAUnits" type="number" min="15" name="PAUnits">
 								  <label for="PAUnits">Public Administration Units Completed:</label>
 								</div>
 
-
+								<div class="form-group">
+									<div class="g-recaptcha" data-sitekey="6Le401AnAAAAABrmAARVbfukr7LgO7heCiFN9xmH"></div>
+								</div>
+									
 								<div class="button-wrapper text-center">
 								<button type="submit" class="btn btn-secondary m-2">Submit</button>
 								<button type="reset" class="btn btn-primary m-2">Clear Form</button>
