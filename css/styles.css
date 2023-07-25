@@ -11612,3 +11612,10 @@ section#contact form#contactForm :-ms-input-placeholder {
     height: 200px; /*Set this to the preferred height*/
     object-fit: cover; /*This will ensure the aspect ratio of images is preserved as they're resized*/
 }
+
+@media (max-width: 768px) {
+  .portfolio-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
