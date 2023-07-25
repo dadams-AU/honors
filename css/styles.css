@@ -10998,6 +10998,19 @@ header.masthead2 {
   background-size: cover;
 }
 
+header.masthead3::before {
+  content: '';
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  background-image: url("../images/athens.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
 header.masthead2 .masthead-subheading2 {
   font-size: 2rem; /* Increased font size */
   line-height: 2rem; /* Increased line height to match font size */
@@ -11010,11 +11023,11 @@ header.masthead2 .masthead-subheading2 {
 header.masthead2 .masthead-heading2 {
   font-size: 4.5rem; /* Increased font size */
   font-weight: 700;
-  color: #00244E;
+  color: #EBFBFF;
   line-height: 4.5rem; /* Increased line height to match font size */
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-shadow: 2px 2px 4px #F5F5F5; /* Added text shadow */
+  text-shadow: 2px 2px 4px #00244E; /* Added text shadow */
 }
 
 
@@ -11048,6 +11061,20 @@ header.masthead3 {
   background-size: cover;
 }
 
+header.masthead3::before {
+  content: '';
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  background-image: url("../images/athens.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+
 header.masthead3 .masthead-subheading3 {
   font-size: 2rem; /* Increased font size */
   line-height: 2rem; /* Increased line height to match font size */
@@ -11060,11 +11087,11 @@ header.masthead3 .masthead-subheading3 {
 header.masthead3 .masthead-heading3 {
   font-size: 4.5rem; /* Increased font size */
   font-weight: 700;
-  color: #00244E;
+  color: #EBFBFF;
   line-height: 4.5rem; /* Increased line height to match font size */
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-shadow: 2px 2px 4px #F5F5F5; /* Added text shadow */
+  text-shadow: 2px 2px 4px #00244E; /* Added text shadow */
 }
 
 
