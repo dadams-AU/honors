@@ -11035,6 +11035,110 @@ header.masthead2 .masthead-heading2 {
     margin-bottom: 4rem;
   }
 }
+
+header.masthead3 {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../images/athens.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead3 .masthead-subheading3 {
+  font-size: 2rem; /* Increased font size */
+  line-height: 2rem; /* Increased line height to match font size */
+  margin-bottom: 25px;
+  color: #fd7e14;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-shadow: 2px 2px 4px #000000; /* Added text shadow */
+}
+
+header.masthead3 .masthead-heading3 {
+  font-size: 4.5rem; /* Increased font size */
+  font-weight: 700;
+  color: #00244E;
+  line-height: 4.5rem; /* Increased line height to match font size */
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-shadow: 2px 2px 4px #F5F5F5; /* Added text shadow */
+}
+
+
+@media (min-width: 768px) {
+  header.masthead3 {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead3 .masthead-subheading3 {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.masthead3 .masthead-heading3 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
+header.masthead3b {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../images/activities.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead3b .masthead-subheading3b {
+  font-size: 2rem; /* Increased font size */
+  line-height: 2rem; /* Increased line height to match font size */
+  margin-bottom: 25px;
+  color: #fd7e14;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-shadow: 2px 2px 4px #000000; /* Added text shadow */
+}
+
+header.masthead3b .masthead-heading3b {
+  font-size: 4.5rem; /* Increased font size */
+  font-weight: 700;
+  color: #00244E;
+  line-height: 4.5rem; /* Increased line height to match font size */
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-shadow: 2px 2px 4px #F5F5F5; /* Added text shadow */
+}
+
+
+@media (min-width: 768px) {
+  header.masthead3b {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead3b .masthead-subheading3 {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.masthead3b .masthead-heading3b {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
@@ -11444,3 +11548,33 @@ section#contact form#contactForm :-ms-input-placeholder {
     text-align: center; /* To center the text */
     font-size: 1.5em; /* Increase the font size */
 }
+
+.portfolio-item img {
+    width: 100%; /* this will make the image take the full width of its parent div */
+    height: 300px; /* adjust this based on what height you want */
+    object-fit: cover; /* this will ensure the image covers the full div without distorting */
+}
+
+
+.close-modal {
+    padding: 1rem;
+}
+
+.close-modal:hover {
+    color: red;
+}
+
+
+
+.jumbotron-image {
+    background-image: url("../images/activities.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* This changes the text color to white */
+}
+
+.jumbotron-image h1, .jumbotron-image p {
+    background-color: rgba(0, 0, 0, 0.6); /* This adds a semi-transparent black background to the text */
+    padding: 10px; /* This adds some space around the text */
+}
+
