@@ -11567,14 +11567,30 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 .jumbotron-image {
+    position: relative;
     background-image: url("../images/activities.png");
     background-size: cover;
     background-position: center;
     color: #ffffff; /* This changes the text color to white */
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* This adds a semi-transparent black background */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+
 .jumbotron-image h1, .jumbotron-image p {
-    background-color: rgba(0, 0, 0, 0.6); /* This adds a semi-transparent black background to the text */
+   
     padding: 10px; /* This adds some space around the text */
 }
 
