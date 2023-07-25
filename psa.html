@@ -561,16 +561,13 @@
 								  <label for="PAUnits">Graduate Units Completed:</label>
 								</div>
 
-								<div class="form-group">
-									<div class="g-recaptcha" data-sitekey="6Le401AnAAAAABrmAARVbfukr7LgO7heCiFN9xmH"></div>
-								</div>
-								<div class="button-wrapper text-center">
-								<button type="submit" class="btn btn-secondary m-2">Submit</button>
+								
+							<div class="button-wrapper text-center">
+								<button onClick="handleFormSubmit(event)" class="btn btn-secondary m-2">Submit</button>
 								<button type="reset" class="btn btn-primary m-2">Clear Form</button>
-								<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+							</div>
+								</form>
 									
-								</div>
-									</form>
                             </section>
                         </div>
                     </div>
@@ -791,5 +788,22 @@
           document.getElementById("announcement-banner").style.display = "none";
         }
     </script>
+	<script>
+  grecaptcha.ready(function() {
+    grecaptcha.execute("6Le401AnAAAAABrmAARVbfukr7LgO7heCiFN9xmH", {action: "submit"}).then(function(token) {
+      // Add the token to the form:
+      var form = document.getElementById('my-form');
+      var input = document.createElement('input');
+      input.type = 'hidden';
+      input.name = 'g-recaptcha-response';
+      input.value = token;
+      form.appendChild(input);
+
+      // Submit the form:
+      form.submit();
+    });
+  });
+</script>
+
     </body>
 </html>
