@@ -7,7 +7,7 @@ This repository contains the official website for two honor societies at Cal Sta
 - **Membership Information**: Details about how to become a member and the benefits of joining.
 - **Events**: Upcoming and past events organized by the societies.
 - **Qualifications**: Criteria for joining the honor societies.
-- **Resources**: Useful resources for members and those interested in the field of Public Administration.
+- **Resources**: Useful resources for members and those interested in the fields of Public Administration and Political Science.
 - **Scholarship**: Information about scholarship opportunities available to members.
 - **Application Form**: Integrated with Formspree and reCaptcha for secure and efficient form submissions.
 
@@ -19,7 +19,7 @@ This repository contains the official website for two honor societies at Cal Sta
 
 ## Notes
 
-- Users who fork or clone the repository should use their own Formspree API key and reCaptcha site key and secret key. The current keys are only for demonstration purposes and will be deactivated in the future.
+- Users who fork or clone the repository should use their own Formspree API key, reCaptcha site key, and secret key. The current keys are only for demonstration purposes and will be deactivated in the future.
 - The site is currently hosted on GitHub Pages. Users who fork or clone the repository should host the site on their own server.
 - The site is currently optimized for desktop and mobile devices. Users who fork or clone the repository should test the site on other devices and browsers.
 - The site is currently optimized for the latest version of Chrome. Users who fork or clone the repository should test the site on other browsers.
