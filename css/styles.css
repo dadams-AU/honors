@@ -10879,6 +10879,7 @@ p {
 .deadline-banner {
   text-align: center; /* To center the text */
   font-size: 1.5em; /* Increase the font size */
+  color: #020100
 }
 
 /* jumbotron */
