@@ -10875,6 +10875,8 @@ p {
   border-radius: 100%;
 }
 
+
+
 /* deadline banner */ 
 .deadline-banner {
   text-align: center; /* To center the text */
@@ -11008,3 +11010,14 @@ opacity: 0.3;
    margin-bottom: 30px;
 }
 }
+
+/* accessibility */
+
+.custom-link-color {
+  color: #be5a00;
+}
+.custom-bg-color {
+  background-color: #fafbfc;
+}
+
+
