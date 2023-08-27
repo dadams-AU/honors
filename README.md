@@ -28,7 +28,7 @@ This repository contains the official website for two honor societies at Cal Sta
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/dadams-AU/honors.git](https://github.com/dadams-AU/honors.git)
+   git clone https://github.com/dadams-AU/honors.git
    ```
 2. Open `index.html` in your preferred browser to view the website.
 
