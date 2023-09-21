@@ -119,4 +119,7 @@ body {
 .bd-mode-toggle {
   z-index: 1500;
 }
-</style>
+.btn.btn-lg.btn-light.fw-bold.border-white.bg-white.mb-2:hover {
+  background-color: #fd7e14 !important;
+  border-color: #fd7e14 !important;
+}
