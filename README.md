@@ -41,10 +41,6 @@ While this website is tailored for the honor societies at Cal State Fullerton, i
 3. Make your changes.
 4. Submit a pull request.
 
-## Acknowledgments
-
-A special thanks to ChatGPT for assisting in the development process and providing valuable insights.
-
 ## License
  
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
