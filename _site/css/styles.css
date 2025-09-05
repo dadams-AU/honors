@@ -11019,3 +11019,86 @@ opacity: 0.3;
 .custom-bg-color {
   background-color: #fafbfc;
 }
+
+/* Modern Card Styles */
+.card-hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.featured-card {
+    position: relative;
+    border: 2px solid #198754;
+}
+
+.featured-card:hover {
+    border-color: #157347;
+}
+
+/* Form Validation Styles */
+.form-control.is-valid {
+    border-color: #198754;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='m2.3 6.73.94-.94 2.94 2.94L8.18 1.3l-.94-.94L4.44 3.18 3.24 1.98zm0 0'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath d='m5.8 3.6.7.7 1.4 1.4.7-.7m-2.8 0 .7.7 1.4 1.4-.7.7'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+/* Section Headers in Forms */
+.form-section-header {
+    color: #0d6efd;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Smooth transitions for all interactive elements */
+.btn, .card, .form-control {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Enhanced modal styling */
+.modal-content {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.modal-header {
+    border-bottom: 1px solid #e9ecef;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .card-hover:hover {
+        transform: none;
+    }
+    
+    .modal-body {
+        padding: 1rem;
+    }
+    
+    .display-5 {
+        font-size: 2rem;
+    }
+}
