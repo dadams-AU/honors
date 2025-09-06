@@ -45,7 +45,13 @@
     <a href="http://www.fullerton.edu">
         <img class="img-fluid img-link" src="./images/CalStateFullerton-reversed-R.png" width="250px" alt="Cal State Fullerton Logo">
     </a>
-  </footer>
+      <div class="container">
+        <p>&copy; <span id="year"></span> Honors Program. All rights reserved.</p>
+      </div>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.js"></script>

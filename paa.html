@@ -193,7 +193,11 @@
                     <img class="img-fluid" src="./images/CalStateFullerton-color-R.png" width="250px" alt="Cal State Fullerton Logo">
                 </a>
             </div>  
-			<div class="col-lg-4 text-lg-end">Copyright &copy; David P. Adams 2025</div>
+				<div class="col-lg-4 text-lg-end">Copyright &copy; <span id="year"></span> David P. Adams</div>
+			</div>
+			<script>
+				document.getElementById('year').textContent = new Date().getFullYear();
+			</script>
             
         </div>
     </div>
