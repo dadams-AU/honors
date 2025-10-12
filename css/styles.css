@@ -11102,3 +11102,62 @@ opacity: 0.3;
         font-size: 2rem;
     }
 }
+
+/* ========================================
+   ACCESSIBILITY IMPROVEMENTS - WCAG2AA
+   ======================================== */
+
+/* Fix button contrast ratios for WCAG2AA compliance */
+.btn-outline-primary {
+  color: #be5a00 !important;
+  border-color: #FF7900 !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #ffffff !important;
+  background-color: #FF7900 !important;
+  border-color: #FF7900 !important;
+}
+
+.btn-outline-info {
+  color: #00819b !important;
+  border-color: #0dcaf0 !important;
+}
+
+.btn-outline-info:hover,
+.btn-outline-info:focus {
+  color: #ffffff !important;
+  background-color: #0dcaf0 !important;
+  border-color: #0dcaf0 !important;
+}
+
+.btn-outline-warning {
+  color: #be5a00 !important;
+  border-color: #FF7900 !important;
+}
+
+.btn-outline-warning:hover,
+.btn-outline-warning:focus {
+  color: #ffffff !important;
+  background-color: #FF7900 !important;
+  border-color: #FF7900 !important;
+}
+
+/* Fix text-muted contrast */
+.lead.text-muted {
+  color: #6c757d !important;
+}
+
+/* Fix specific text-muted that's barely failing */
+#info-cards .lead.text-muted {
+  color: #5a6268 !important;
+}
+
+/* Ensure proper focus states for accessibility */
+.btn:focus,
+a:focus,
+button:focus {
+  outline: 2px solid #FF7900;
+  outline-offset: 2px;
+}

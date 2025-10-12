@@ -30,7 +30,7 @@ body {
  */
 
 .nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .75);
   border-bottom: .25rem solid transparent;
   transition: all 0.3s ease;
 }
@@ -38,7 +38,7 @@ body {
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255, 255, 255, .25);
-  color: rgba(255, 255, 255, .85);
+  color: rgba(255, 255, 255, 1);
 }
 
 .nav-masthead .nav-link:focus {
@@ -186,7 +186,7 @@ body {
 }
 
 .nav-content-page .nav-link {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.95);
   border-bottom: 3px solid transparent;
   padding: 0.5rem 1rem;
   transition: all 0.3s ease;
