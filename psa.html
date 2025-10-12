@@ -205,14 +205,14 @@
                     </a>
                 </div>  
                 <div class="col-lg-4 text-lg-end">
-                    <span class="text-muted">&copy; <span id="year"></span> Honors Program. All rights reserved.</span>
+                    Copyright &copy; <span id="year"></span> David P. Adams
                 </div>
                 
             </div>
+            <script>
+                document.getElementById('year').textContent = new Date().getFullYear();
+            </script>
         </div>
-        <script>
-            document.getElementById('year').textContent = new Date().getFullYear();
-        </script>
     </footer>
 
             
