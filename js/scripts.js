@@ -112,7 +112,7 @@ function validateForm(form) {
 
 // Email validation for CSUF domains
 function validateCSUFEmail(email) {
-  const csufPattern = /@(student\.)?fullerton\.edu$/i;
+  const csufPattern = /@(csu\.)?fullerton\.edu$/i;
   return csufPattern.test(email);
 }
 
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
   emailFields.forEach(field => {
     field.addEventListener('blur', function() {
       if (this.id === 'email' && this.value && !validateCSUFEmail(this.value)) {
-        this.setCustomValidity('Please use your CSUF email address (@fullerton.edu or @student.fullerton.edu)');
+        this.setCustomValidity('Please use your CSUF email address (@csu.fullerton.edu or @fullerton.edu)');
         this.classList.add('is-invalid');
       } else {
         this.setCustomValidity('');
