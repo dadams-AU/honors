@@ -69,7 +69,7 @@ function showFormSuccess(form) {
         <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
       </div>
       <h3 class="text-success mb-3">Application Submitted Successfully!</h3>
-      <p class="lead mb-4">Thank you for your application. You will receive a confirmation email shortly, and the faculty advisor will review your submission.</p>
+      <p class="lead mb-4">Thank you for your application. The faculty advisor will review your submission.</p>
       <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
     </div>
   `;
